@@ -1,0 +1,19 @@
+package com.empresa;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+
+
+public class CalculadoraTest {
+	
+	@Test
+	public void testSoma() {
+		
+		Calculadora calc = new Calculadora();
+		
+		Assertions.assertTrue(calc.somar(2, 3) == 5);
+		
+		Assertions.assertEquals(5, calc.somar(2, 3));
+	}
+
+}

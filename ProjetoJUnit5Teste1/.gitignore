@@ -1,0 +1,63 @@
+# Arquivos temporários
+*#
+
+# Arquivos de projeto IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+
+# Arquivos JAR
+*.jar
+
+# Arquivos de backup de editor
+*.sw?
+*~
+
+# Arquivos temporários de Emacs
+.#*
+
+# Arquivos gerados ao converter arquivos Markdown para HTML
+.*.md.html
+
+# Arquivos específicos do macOS
+.DS_Store
+
+# Configurações do Eclipse
+.classpath
+.factorypath
+.gradle
+.idea
+.metadata
+.project
+.recommenders
+.settings
+.springBeans
+
+# Configurações do Visual Studio Code
+.vscode/
+
+# Diretórios de build
+/bin/
+/out/
+/build
+
+# Outros arquivos e diretórios de build
+/code
+MANIFEST.MF
+_site/
+activemq-data
+build.log
+dependency-reduced-pom.xml
+dump.rdb
+interpolated*.xml
+lib/
+manifest.yml
+overridedb.*
+target
+transaction-logs
+
+# Outros arquivos
+.flattened-pom.xml
+secrets.yml
+.gradletasknamecache
+.sts4-cache
