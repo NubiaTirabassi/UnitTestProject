@@ -1,0 +1,39 @@
+package exemplo.com.service;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import exemplo.com.Service.PacienteService;
+import exemplo.com.model.Paciente;
+
+public class PacienteServiceIntegrationTest {
+	
+	private PacienteService pacienteService;
+	
+	@BeforeEach
+	public void setUp() {
+		pacienteService = new PacienteService();
+	}
+
+	//Excluir o MOCK
+	@AfterEach
+	public void tearDown() {
+		pacienteService = null;
+	}
+	
+	//Adicionando o paciente
+	@Test
+	public void CRUDPaciente() {
+		Paciente paciente1 = new Paciente(1, "João", 30);
+		
+		pacienteService.adicionarPaciente(paciente1);
+		
+		//Buscar por id
+		Paciente pacienteBusca = pacienteService.buscarPacientePorId(1);
+		
+		assertEquals(paciente1, pacienteBusca);
+	}
+}

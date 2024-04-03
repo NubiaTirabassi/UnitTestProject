@@ -1,0 +1,5 @@
+package exemplo.com.service;
+
+public class PacienteService {
+
+}

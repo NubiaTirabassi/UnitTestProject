@@ -1,0 +1,47 @@
+package com.empresa;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertSame;
+
+import org.junit.jupiter.api.Test;
+
+public class TestAssertions {
+
+	@Test
+	public void testEqualsIgnoreCase() {
+
+		String str1 = "Hello";
+		String str2 = "Hello";
+
+		assertEquals(str1, str2);
+
+	}
+
+	@Test
+	public void testAssertFalse() {
+		int number = 3;
+		assertFalse(number > 5);
+	}
+
+	@Test
+	public void testAssertEquals() {
+		int number = 3;
+		assertEquals(number, 3);
+	}
+
+	@Test
+	public void testAssertNull() {
+		Object obj = null;
+		assertNull(obj);
+	}
+
+	@Test
+	public void testAssertSame() {
+		Object obj1 = new Object();
+		Object obj2 = obj1;
+		assertSame(obj1, obj2);
+
+	}
+}

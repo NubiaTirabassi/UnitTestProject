@@ -1,0 +1,20 @@
+package exemplo.com.model;
+
+public class Paciente {
+	private int id;
+	private String nome;
+	private int idade;
+	
+	public Paciente() {
+		
+	}
+	
+	public Paciente(int id, String nome, int idade) {
+		this.id = id;
+		this.nome = nome;
+		this.idade = idade; 
+		
+	}
+
+
+}

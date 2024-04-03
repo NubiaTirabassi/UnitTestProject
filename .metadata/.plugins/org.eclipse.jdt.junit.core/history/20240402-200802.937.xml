@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PacienteTest" project="ProjetoJUnit5Teste4" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="exemplo.com.model.PacienteTest" time="0.001" displayname="PacienteTest" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]">
+    <testcase name="testeGetNome" classname="exemplo.com.model.PacienteTest" time="0.001" displayname="testeGetNome()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testeGetNome()]"/>
+    <testcase name="testeSetId" classname="exemplo.com.model.PacienteTest" time="0.0" displayname="testeSetId()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testeSetId()]"/>
+    <testcase name="testGetIdade" classname="exemplo.com.model.PacienteTest" time="0.0" displayname="testGetIdade()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testGetIdade()]"/>
+    <testcase name="testGetId" classname="exemplo.com.model.PacienteTest" time="0.0" displayname="testGetId()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testGetId()]"/>
+    <testcase name="testSetNome" classname="exemplo.com.model.PacienteTest" time="0.0" displayname="testSetNome()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testSetNome()]"/>
+    <testcase name="testSetIdade" classname="exemplo.com.model.PacienteTest" time="0.0" displayname="testSetIdade()" uniqueid="[engine:junit-jupiter]/[class:exemplo.com.model.PacienteTest]/[method:testSetIdade()]"/>
+  </testsuite>
+</testrun>

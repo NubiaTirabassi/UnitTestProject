@@ -1,0 +1,6 @@
+package exemplo.com.model;
+
+@Service
+public class PacienteService {
+
+}

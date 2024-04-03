@@ -1,0 +1,5 @@
+package exemplo.com.model;
+
+public class Paciente {
+
+}
